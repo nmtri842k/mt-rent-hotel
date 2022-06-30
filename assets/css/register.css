@@ -567,6 +567,33 @@
 }
 
 
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* product */
+
+    .header__right-list {
+        display: flex;
+        list-style: none;
+        padding: 0 2px;
+
+    }
+
+    .header__right-item-link {
+        padding: 0 3px
+    }
+
+    .container-benafit {
+        width: 28%;
+    }
+
+    .register-wrap {
+        min-width: 350px;
+        padding: 32px 32px;
+        margin-top: 0;
+    }
+
+}
+
 /* mobile */
 @media only screen and (max-width: 46.1875em) {
 
@@ -624,38 +651,5 @@
         margin-top: 0;
     }
 
-
-}
-
-
-/* Tablet: width >= 740px and width < 1024px */
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-    /* product */
-
-    .header__right-list {
-        display: flex;
-        list-style: none;
-        padding: 0 2px;
-
-    }
-
-    .header__right-item-link {
-        padding: 0 3px
-    }
-
-    .container-benafit {
-        width: 28%;
-    }
-
-    .register-wrap {
-        min-width: 350px;
-        padding: 32px 32px;
-        margin-top: 0;
-    }
-
-    /* cousre */
-
-
-    /* card layout */
 
 }
